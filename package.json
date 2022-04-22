@@ -1,0 +1,26 @@
+{
+  "name": "generator-ext",
+  "version": "0.1.2",
+  "description": "Array-like methods for generators.",
+  "main": "./generator-ext.js",
+  "module": "./generator-ext.mjs",
+  "types": "./generator-ext.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./generator-ext.js",
+      "import": "./generator-ext.mjs",
+      "types": "./generator-ext.d.ts"
+    }
+  },
+  "scripts": {
+    "prepack": "npm run build",
+    "build": "rollup -f cjs -o ./generator-ext.js ./generator-ext.mjs"
+  },
+  "keywords": [],
+  "author": "lideming",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.70.2"
+  }
+}
