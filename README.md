@@ -2,6 +2,8 @@
 
 Array-like methods for generators.
 
+[![npm](https://img.shields.io/npm/v/generator-ext?color=blue)](https://www.npmjs.com/package/generator-ext)
+
 ## Background
 
 In C# and Python, we can do some operations on an iterator and get chained generators.

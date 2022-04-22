@@ -17,8 +17,12 @@
     "prepack": "npm run build",
     "build": "rollup -f cjs -o ./generator-ext.js ./generator-ext.mjs"
   },
-  "keywords": [],
+  "keywords": ["generator", "extension", "filter", "map"],
   "author": "lideming",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lideming/generator-ext.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "rollup": "^2.70.2"
