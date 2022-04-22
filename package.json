@@ -1,6 +1,6 @@
 {
   "name": "generator-ext",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Array-like methods for generators.",
   "main": "./generator-ext.js",
   "module": "./generator-ext.mjs",
@@ -17,7 +17,12 @@
     "prepack": "npm run build",
     "build": "rollup -f cjs -o ./generator-ext.js ./generator-ext.mjs"
   },
-  "keywords": ["generator", "extension", "filter", "map"],
+  "keywords": [
+    "generator",
+    "extension",
+    "filter",
+    "map"
+  ],
   "author": "lideming",
   "repository": {
     "type": "git",
